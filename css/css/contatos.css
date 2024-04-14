@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+/* *(Asterísco) = TUDO */
+ *{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    background-image: url('https://i.pinimg.com/564x/98/ab/03/98ab0358a4b88e1f34a6ea7ec3f4b9f6.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.cabecalho{
+    background-color: black;
+    height: 100px;
+    color: white;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    float: right; 
+} 
+li{
+    padding: 30px; 
+    font-size: 18px;
+    margin: 10px 5px; 
+    font-weight: bold;
+    display: inline-block;
+}
+li a{ 
+    text-decoration: none;
+    color: #fff;
+    
+}
+li a:hover{
+    color:#ffbd07;
+}
+ul li:hover {
+    background-color: #0056b3; 
+}
+
+.formulario{
+    background-color: rgb(253, 253, 253);
+    width: 80%;
+    border-radius: 50px;
+    margin: 0 auto;
+    line-height: 30px;
+
+}
+
+form{
+   width: 50%;
+   margin: 0 auto;
+   text-align: center;
+}
+
+input, label{
+    display: block;
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+input, select{
+   width: 60%;
+   padding: 5px;
+   font-size: 20px;
+   margin: 0 auto;
+   border-radius: 5.70px;
+   margin-bottom: 10px;
+
+}
+#Enviar:hover{
+   background-color: rgb(8, 59, 59);
+}
+.footer{
+    color: white;
+}
+textarea {
+    width: 80%; /* Ajuste a largura conforme necessário */
+    height: 100px; /* Defina a altura inicial */
+    padding: 10px; /* Ajuste o preenchimento conforme necessário */
+    font-size: 20px;
+    margin: 0 auto;
+    border-radius: 0; /* Remova o arredondamento das bordas */
+    margin-bottom: 10px;
+    resize: none; /* Impede o redimensionamento manual */
+    overflow-y: auto; /* Adiciona uma barra de rolagem vertical se necessário */
+}
+
+

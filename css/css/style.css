@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+/* *(Asterísco) = TUDO */
+ *{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    background-image: url('https://i.pinimg.com/564x/98/ab/03/98ab0358a4b88e1f34a6ea7ec3f4b9f6.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.cabecalho{
+    background-color: black;
+    height: 100px;
+    color: white;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    float: right; 
+} 
+li{
+    padding: 30px; 
+    font-size: 18px;
+    margin: 10px 5px; 
+    font-weight: bold;
+    display: inline-block;
+}
+li a{ 
+    text-decoration: none;
+    color: #fff;
+    
+}
+li a:hover{
+    color:#ffbd07;
+}
+ul li:hover {
+    background-color: #0056b3; 
+}
+
+
+
+.container-mid{
+    position: relative;
+}
+.postagem{
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+    padding: 50px 50px 30px 50px;
+    text-indent: 50px; /* * Espaço do parágrafo/tabulação */
+    line-height: 30px;
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+img{
+    width: 150px;
+    opacity: 1;
+       position: absolute;
+       left: 30px;
+       top: 0px;
+}
+.container-mid {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.postagem{
+    font-size: 18px;
+    text-align: justify;
+    padding: 50px 50px 50px 50px;
+    text-indent: 10rem; /* * Espaço do parágrafo/tabulação */
+    line-height: 30px;
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.footer{
+    color: white;
+}
+
+
+.raças {
+    background-color: rgba(240, 240, 240, 0.8);
+    padding: 20px; 
+    margin-top: 20px; 
+}
+
+
+.raças p.final {
+    font-size: 16px; 
+    color: #333; 
+}
+
+.raças a {
+    display: block; 
+    font-size: 18px; 
+    color: #007bff; 
+    text-decoration: none; 
+    margin-top: 10px; /
+}
+
+.raças a:hover {
+    text-decoration: underline; 
+}
